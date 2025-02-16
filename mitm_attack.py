@@ -3,6 +3,7 @@
 # it activates ip forwarding
 
 #usage example: sudo python3 mitm_attack.py -t 192.168.168.11 -g 192.168.168.1
+#you can then use wireshark to listen to the traffic
 
 import scapy.all as scapy
 import time
