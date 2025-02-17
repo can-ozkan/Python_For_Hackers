@@ -15,7 +15,9 @@ Some python scripts that can be used in penetration testing
 sudo apt-get update \
 sudo apt install python3 \
 sudo apt-get install python3-dev \
+sudo apt install python3-pip \
 python3 -m venv /path/to/new/virtual/environment \
 source <venv>/bin/activate \
 pip3 install scapy \
-pip3 install scapy_http
+pip3 install scapy_http \
+pip3 install pynput 
