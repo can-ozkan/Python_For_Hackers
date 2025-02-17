@@ -11,13 +11,17 @@ By using this code, you agree to take full responsibility for your actions. The 
 # Python_For_Hackers
 Some python scripts that can be used in penetration testing
 
-# Useful commands and Creating a Python3 Virtual Environment
+## Useful commands and 
 sudo apt-get update \
 sudo apt install python3 \
 sudo apt-get install python3-dev \
 sudo apt install python3-pip \
+
+## Creating a Python3 Virtual Environment
 python3 -m venv /path/to/new/virtual/environment \
-source <venv>/bin/activate \
+source \<venv\>/bin/activate 
+
+## Installing Libraries
 pip3 install scapy \
 pip3 install scapy_http \
 pip3 install pynput 
