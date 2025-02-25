@@ -25,4 +25,5 @@ source \<venv\>/bin/activate
 pip3 install scapy \
 pip3 install scapy_http \
 pip3 install pynput \
-pip3 install cryptography
+pip3 install cryptography \
+pip3 install beautifulsoup4
